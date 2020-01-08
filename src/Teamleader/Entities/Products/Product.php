@@ -8,6 +8,8 @@ use Teamleader\Model;
 class Product extends Model
 {
     use Storable;
+    use FindAll;
+    use FindById;
 
     const TYPE = 'product';
 
