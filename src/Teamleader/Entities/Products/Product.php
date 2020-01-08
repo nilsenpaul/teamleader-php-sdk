@@ -2,6 +2,8 @@
 
 namespace Teamleader\Entities\Products;
 
+use Teamleader\Actions\FindAll;
+use Teamleader\Actions\FindById;
 use Teamleader\Actions\Storable;
 use Teamleader\Model;
 
