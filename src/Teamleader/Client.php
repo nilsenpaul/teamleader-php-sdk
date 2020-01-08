@@ -20,6 +20,7 @@ use Teamleader\Entities\Invoicing\TaxRate;
 use Teamleader\Entities\Invoicing\WithholdingTaxRate;
 use Teamleader\Entities\Other\Webhook;
 use Teamleader\Entities\Other\Migrate;
+use Teamleader\Entities\Products\Product;
 
 class Client
 {
@@ -129,4 +130,10 @@ class Client
     {
         return new Department($this->connection, $attributes);
     }
+
+    public function product(array $attributes = [])
+    {
+        return new Product($this->connection, $attributes);
+    }
+
 }
