@@ -19,6 +19,7 @@ class Product extends Model
         'id',
         'name',
         'code',
+        'vat',
         'purchase_price', // { "amount": 123.4, "currency": "EUR" }
         'selling_price', // { "amount": 123.4, "currency": "EUR" }
     ];
